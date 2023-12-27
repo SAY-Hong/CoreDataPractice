@@ -13,7 +13,8 @@ struct SwiftUI_CoreDataDemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            CoreDataView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
